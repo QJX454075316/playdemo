@@ -1,0 +1,9 @@
+@(title: String, message: String)
+@* 模板入参，两个参数均为String类型，分别命名为title和message *@
+@* 调用main.scala.html模板，传入参数title *@
+@main(title) {
+    @* 输出参数message *@
+    <p>@message</p>
+    <a href="#">Scala语言与Play框架入门教程</a>
+}
+
